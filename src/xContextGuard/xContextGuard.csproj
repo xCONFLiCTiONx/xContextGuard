@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>xContextGuard</AssemblyName>
+    <RootNamespace>xContextGuard</RootNamespace>
+    <ApplicationIcon>..\..\icons\icon.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="..\..\icons\icon.ico">
+      <Link>icons\icon.ico</Link>
+    </Resource>
+    <Resource Include="..\..\icons\icon.png">
+      <Link>icons\icon.png</Link>
+    </Resource>
+  </ItemGroup>
+</Project>
